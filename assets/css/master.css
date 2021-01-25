@@ -16,7 +16,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-style: oblique;
-  margin-top: 20px;
+  margin: 20px 0;
   color: white;
 }
 
@@ -37,6 +37,8 @@ body {
   width: 100%
 }
 
+/* cards quality */
+
 [class^="card-"] {
   width: 17.5%;
   height: 180px;
@@ -46,10 +48,29 @@ body {
   border-radius: 15px;
   background-image: url(../img/pattern.png);
   background-size: contain;
+
 }
 
+.card-6 {
+  background-image: url(../img/air_balloon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1%;
+  position: relative;
+}
 
-img {
-  width: 100%;
-  height: auto;
+/* card text */
+
+#card-text-balloon {
+  color: rgb(231, 36, 139);
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
 }
