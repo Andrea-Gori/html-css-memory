@@ -39,23 +39,25 @@ body {
 
 /* cards quality */
 
-[class^="card-"] {
-  width: 17.5%;
-  height: 180px;
-  background-color: white;
+.col {
   float: left;
+}
+
+.card {
+  width: 17.5%;
+  height: 200px;
+  background-color: white;
   margin:1.75% 3.5%;
   border-radius: 15px;
   background-image: url(../img/pattern.png);
   background-size: contain;
-
 }
 
 .card-6 {
   background-image: url(../img/air_balloon.png);
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 1%;
+  background-position: center;
   position: relative;
 }
 
