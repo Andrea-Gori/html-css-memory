@@ -17,6 +17,39 @@ body {
   font-weight: bold;
   font-style: oblique;
   margin-top: 20px;
+  color: white;
 }
 
 /* main */
+
+.container {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-100{
+  width: 100%
+}
+
+[class^="card-"] {
+  width: 17.5%;
+  height: 180px;
+  background-color: white;
+  float: left;
+  margin:1.75% 3.5%;
+  border-radius: 15px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
