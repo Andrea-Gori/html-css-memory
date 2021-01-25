@@ -51,25 +51,77 @@ body {
   border-radius: 15px;
   background-image: url(../img/pattern.png);
   background-size: contain;
+  position: relative;
+}
+
+.card-1:hover {
+  background-image: url(../img/air_balloon.png);
+  background-repeat: no-repeat;
+}
+
+.card-2:hover {
+  background-image: url(../img/bicycle.png);
+  background-repeat: no-repeat;
+}
+
+.card-3:hover{
+  background-image: url(../img/cruise_ship.png);
+  background-repeat: no-repeat;
+}
+
+.card-4:hover {
+  background-image: url(../img/submarine.png);
+  background-repeat: no-repeat;
+}
+
+.card-5:hover {
+  background-image: url(../img/tractor.png);
+  background-repeat: no-repeat;
 }
 
 .card-6 {
   background-image: url(../img/air_balloon.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
+}
+
+.card-7:hover {
+  background-image: url(../img/tram.png);
+  background-repeat: no-repeat;
 }
 
 /* card text */
 
-#card-text-balloon {
-  color: rgb(231, 36, 139);
+[class^="text-"]{
   position: absolute;
   bottom: 5px;
   left: 25%;
   font-weight: bold;
   font-size: 20px;
+}
+
+.text-balloon {
+  color: rgb(231, 36, 139);
+
+}
+
+.text-bicycle {
+  color: rgb(0, 0, 0);
+}
+
+.text-ship{
+  color: red;
+}
+
+.text-submarine {
+  color: purple;
+}
+
+.text-tractor{
+  color: orange;
+}
+
+.text-tram {
+  color: cyan;
 }
 
 footer {
