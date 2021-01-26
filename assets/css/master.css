@@ -54,6 +54,14 @@ body {
   position: relative;
 }
 
+.card p {
+  visibility: hidden;
+}
+
+.card:hover {
+  visibility: visible;
+}
+
 .card-1:hover {
   background-image: url(../img/air_balloon.png);
   background-repeat: no-repeat;
@@ -101,7 +109,6 @@ body {
 
 .text-balloon {
   color: rgb(231, 36, 139);
-
 }
 
 .text-bicycle {
