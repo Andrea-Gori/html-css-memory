@@ -54,11 +54,11 @@ body {
   position: relative;
 }
 
-.card p {
+.card [class^="text-"] {
   visibility: hidden;
 }
 
-.card:hover {
+.card:hover [class^="text-"]{
   visibility: visible;
 }
 
@@ -100,6 +100,15 @@ body {
 /* card text */
 
 [class^="text-"]{
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.always-visible {
+  color: rgb(231, 36, 139);
   position: absolute;
   bottom: 5px;
   left: 25%;
